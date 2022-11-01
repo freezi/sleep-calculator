@@ -2,6 +2,8 @@
 
 Calculate when to go to sleep or wake up based on sleep cycles.
 
+View live website [here](https://sleep-calculator.pages.dev/)
+
 ## How It's Made:
 
 **Tech used:** TypeScript, React, Tailwind CSS, Vite
