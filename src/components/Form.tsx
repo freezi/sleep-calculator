@@ -94,7 +94,7 @@ const Form = (): JSX.Element => {
             at...
           </span>
         </div>
-        <div className="mb-4 rounded border border-gray-500 bg-gray-800 p-4 shadow-xl">
+        <div className="mb-4 rounded border border-gray-900 bg-gray-800 p-4 shadow-xl">
           <div className="flex flex-col justify-center gap-4 p-4 md:flex-row">
             <select
               name="hour"

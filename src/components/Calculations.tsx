@@ -42,7 +42,7 @@ const Calculations = ({
   }
 
   return (
-    <div className="flex flex-col rounded border border-gray-500 bg-gray-800 p-6 shadow-xl">
+    <div className="flex flex-col rounded border border-gray-900 bg-gray-800 p-6 shadow-xl">
       <h3 className="pb-4">
         You should try to {!isAdding ? "fall asleep" : "wake up"} at one of the
         following times:{" "}
