@@ -94,13 +94,13 @@ const Form = (): JSX.Element => {
             at...
           </span>
         </div>
-        <div className="mb-4 rounded border bg-gray-800 p-4 shadow-xl">
+        <div className="mb-4 rounded border border-gray-500 bg-gray-800 p-4 shadow-xl">
           <div className="flex flex-col justify-center gap-4 p-4 md:flex-row">
             <select
               name="hour"
               defaultValue="Select Hour"
               onChange={handleHourChange}
-              className="rounded border bg-gray-800 p-2 px-3"
+              className="rounded border border-gray-500 bg-gray-800 p-2 px-3"
               required
             >
               <option value="Select Hour" disabled>
@@ -116,7 +116,7 @@ const Form = (): JSX.Element => {
               name="minute"
               defaultValue="Select Minute"
               onChange={handleMinuteChange}
-              className="rounded border bg-gray-800 p-2 px-3"
+              className="rounded border border-gray-500 bg-gray-800 p-2 px-3"
               required
             >
               <option value="Select Minute" disabled>
@@ -131,7 +131,7 @@ const Form = (): JSX.Element => {
             <select
               onChange={toggleAmPm}
               name="am-pm"
-              className="rounded border bg-gray-800 p-2 px-3"
+              className="rounded border border-gray-500 bg-gray-800 p-2 px-3"
             >
               <option value="am">AM</option>
               <option value="pm">PM</option>
@@ -140,13 +140,13 @@ const Form = (): JSX.Element => {
           <div className="flex items-center justify-center gap-4 p-4">
             <button
               onClick={showCalculation}
-              className="rounded border p-2 px-3 hover:bg-gray-700"
+              className="rounded border border-gray-500 p-2 px-3 hover:bg-gray-700"
             >
               Calculate
             </button>
             <button
               onClick={showSleepNow}
-              className="rounded border p-2 px-3 hover:bg-gray-700"
+              className="rounded border border-gray-500 p-2 px-3 hover:bg-gray-700"
             >
               Sleep Now
             </button>
